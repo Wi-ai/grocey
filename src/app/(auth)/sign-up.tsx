@@ -1,5 +1,5 @@
-import { ThemedText } from '@/components/themed-text'
-import { ThemedView } from '@/components/themed-view'
+import { ThemedText } from '../../components/themed-text'
+import { ThemedView } from '../../components/themed-view'
 import { useAuth, useSignUp } from '@clerk/expo'
 import { type Href, Link, useRouter } from 'expo-router'
 import React from 'react'
