@@ -3,7 +3,8 @@ import { Image } from "expo-image";
 import { Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { FontAwesome, FontAwesome6 } from "@expo/vector-icons";
+import { FontAwesome } from "@expo/vector-icons";
+
 
 export default function SignInScreen() {
   const { handleSocialAuth, loadingStrategy } = useSocialAuth();
@@ -46,7 +47,7 @@ export default function SignInScreen() {
         </View>
 
         <Text className="mt-2 text-center text-sm leading-6 text-muted-foreground">
-          Choose a social provider and jump right into your personalized grocery experience.
+          Choose a social provider and jump right into your grocey account.
         </Text>
 
         <View className="mt-6">
