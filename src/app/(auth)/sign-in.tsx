@@ -3,7 +3,7 @@ import { Image } from "expo-image";
 import { Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-import { FontAwesome } from "@expo/vector-icons";
+import { FontAwesome, FontAwesome6 } from "@expo/vector-icons";
 
 
 export default function SignInScreen() {
@@ -60,7 +60,7 @@ export default function SignInScreen() {
           >
             <View className="h-8 w-8 items-center justify-center rounded-full bg-white">
               <Image
-                source={require("../../../assets/images/google.png")}
+                source={require("@/assets/images/google.png")}
                 style={{ width: 20, height: 20 }}
               />
             </View>
