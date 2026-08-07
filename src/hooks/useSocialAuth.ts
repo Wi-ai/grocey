@@ -15,7 +15,7 @@ const useSocialAuth = () => {
       const { createdSessionId, setActive } = await startSSOFlow({ strategy });
 
       if (!createdSessionId || !setActive) {
-        Alert.alert("Sign-in incomplete", "Sign-in did not work. Please try again.");
+        Alert.alert("Sign-in incomplete", "Sign-in did not complete. Please try again.");
         return;
       }
 

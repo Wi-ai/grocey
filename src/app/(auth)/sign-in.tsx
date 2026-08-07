@@ -1,4 +1,4 @@
-import useSocialAuth from "@/hooks/useSocialAuth";
+import useSocialAuth from "../../hooks/useSocialAuth";
 import { Image } from "expo-image";
 import { Pressable, Text, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -30,7 +30,7 @@ export default function SignInScreen() {
           Plan smarter. Shop better.
         </Text>
 
-        <View className="mt-6 rounded-[30px] border border-white/20 bg-white/10 p-3">
+        <View className="mt-6 rounded-[30px] border border-white/20 bg-red/10 p-3">
           <Image
             source={require("../../../assets/images/auth.png")}
             style={{ width: "100%", height: 300 }}
